@@ -16,10 +16,12 @@ Sample app for making a GraphQL API using Graphene in a Django server
 
 # Using this
 
+These commands assume a version Python 3.9 binary is installed.
 
 ```
-python3 -m venv python-graphene-graphql-ve
-source python-graphene-graphql/bin/activate
-python server.py
+python3.9 -m venv python-graphene-graphql-ve
+source python-graphene-graphql-ve/bin/activate
+pip install -U pip
+pip install -r requirements.txt
+flask run --host 0.0.0.0
 ```
-
