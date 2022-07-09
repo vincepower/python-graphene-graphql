@@ -1,5 +1,6 @@
 # Specific to what is included in the README.md
 python-graphene-graphql-ve/
+ve/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
